@@ -67,6 +67,21 @@ margin-bottom: 70px;}
 .banner img{
     width:100%;
 }
+
+/* Main styles */
+main{
+    max-height: 1440px;
+    margin: 10px auto;
+}
+.teams{
+    display: flex;
+    align-items: center;
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 9px;
+}
 /* Responsive media queries */
 /* small devices */
 @media screen and (max-width:586px) {
